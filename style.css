@@ -134,10 +134,32 @@ section{
     padding-right:80px;
     
 }
-.community-half a{
-    
+
+
+#respon-text{
+    text-align: center;
+    text-align: center;
+    font-size: 50px;
 }
 
+.responsive-div{
+    width: 65%;
+}
+.responsive-div img{
+    height: 500px;
+    width: auto;
+}
+.responsive-text{
+    width: 35%;
+    padding-top: 70px;
+    padding-right: 15px;
+}
+.responsive-text h1{
+    font-size: 40px;
+}
+.responsive-text p{
+    text-align: justify;
+}
 footer{
     background-color:#0b0d17;
     padding-left:0;
