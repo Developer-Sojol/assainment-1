@@ -1,8 +1,7 @@
 body{
-    margin:0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'The Nautigal', cursive;
+    padding-left: 100px;
+    padding-top: 20px; 
+    font-family: 'Roboto Slab', serif;
 }
 
 #title{
@@ -22,8 +21,7 @@ p{
 }
 section{
     display: flex;
-    padding-left: 100px;
-    padding-top: 20px;
+    
 }
 .half-width{
     width:50%;
@@ -36,9 +34,120 @@ section{
 .button{
     text-decoration: none;
     font-weight: 700;
-    background: linear-gradient(45deg, lightsalmon, tomato);
+    background: linear-gradient(45deg, #d349a1, #60436b);
     padding: 10px 40px;
     color: white;
     border-radius: 5%;
     margin-bottom: 40px;
+}
+
+#mission-title{
+    font-size: 45px;
+    text-align: center;
+}
+.third-width{
+   padding: 0 10px;
+   width: 33.33%;
+}
+.third-width img{
+    height: 200px;
+    width: auto;
+}
+.third-width p{
+    text-align: justify;
+}
+.one{
+    background-color:#fff4d6;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.two{
+    background-color:#ffeeee ;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.three{
+    background-color: #edf5f6;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.documentation{
+    display: flex;
+    background-image: url("./images/shape/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.document-half{
+    width: 50%;
+}
+.document-img{
+    max-width: 100%;
+    height: 340px;
+    width: auto;
+    padding-left: 117px;
+    padding-top: 30px;
+}
+.document-half h2{
+    font-size: 35px;
+    margin-left:-50px;
+   
+}
+.document-half h3{
+    font-size: 35px;
+    margin-left:-50px;
+}
+.document-half p{
+    text-align: justify;
+    padding-right:80px;
+    margin-left:-50px;
+}
+.document-half a{
+    margin-left:-50px;
+}
+
+.community{
+    display: flex;
+    padding-top: 40px;
+}
+.community-half{
+    width: 50%;
+}
+.community-img{
+    max-width: 100%;
+    height: 340px;
+    width: auto;
+    padding-top: 40px;
+}
+.community-half h2{
+    font-size: 35px;
+}
+.community-half h3{
+    font-size: 35px;
+   
+}
+.community-half p{
+    text-align: justify;
+    padding-right:80px;
+    
+}
+.community-half a{
+    
+}
+
+footer{
+    background-color:#0b0d17;
+    padding-left:0;
+    margin-top:40px;
+}
+footer h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+footer p{
+    text-align: center;
 }
